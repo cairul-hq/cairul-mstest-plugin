@@ -1,6 +1,6 @@
-import { testRunner } from '@cairul/plugin-kit/runner';
+import { testRunner } from '@cairul/pdk/runner';
 import adapter from './run.mjs';
-import { trx, testPlugin } from '@cairul/plugin-kit/reports';
+import { trx, testPlugin } from '@cairul/pdk/reports';
 
 const reports = testPlugin('mstest.passed', { trx });
 
